@@ -1,0 +1,94 @@
+/* General Text Styling */
+body {
+    font-family: 'Arial', sans-serif; /* Clean, sans-serif font */
+    color: #333;
+    
+    background-color: black;
+    margin: 100px;
+}
+
+/* Title Styling */
+h1 {
+    font-size: 2rem;
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+/* Input Field Styling */
+input[type="text"] {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #0056b3;
+}
+
+/* Add Button Styling */
+button.ab {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button.ab:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+/* Task List Styling */
+ol {
+    padding-left: 1.5rem;
+}
+
+li {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.text {
+    color:white;
+    font-weight: 500;
+    margin-right: auto;
+}
+
+/* Badge (Button) Styling */
+.Delb, .Movb {
+    margin-left: 8px;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Badge Hover Effect */
+.Delb:hover, .Movb:hover {
+    background-color: #0056b3 !important;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/* Placeholder Text Styling */
+::placeholder {
+    color: #aaa;
+    font-style: italic;
+}
